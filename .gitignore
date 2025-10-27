@@ -4,6 +4,10 @@ node_modules/
 # Build outputs
 dist/
 .astro/
+.vercel/
 
 # System files
 .DS_Store
+docs/brand-guidelines.md
+.gitignore
+docs/business-plan.md

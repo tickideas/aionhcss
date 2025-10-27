@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",
+    "@astrojs/vercel": "^9.0.0",
     "astro": "^5.15.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",

@@ -3,7 +3,7 @@
 Modern marketing site for Aion HCSS built with [Astro](https://astro.build/) and Tailwind CSS. The project includes responsive layouts, brand-aligned styling, and Netlify-ready enquiry, referral, and careers forms.
 
 ## Tech stack
-- Astro 5 (static output)
+- Astro 5 (static output via `@astrojs/vercel` adapter)
 - Tailwind CSS 3 with design tokens (`src/styles/tokens.css`)
 - Netlify form handling (contact, careers, refer)
 
