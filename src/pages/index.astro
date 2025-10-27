@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = 'Compassionate care that respects your dignity.';
+const pageDesc = 'Personalised home care and supported living across Chelmsford and the East of England.';
+---
+<BaseLayout title={pageTitle} description={pageDesc}>
+  <section class="bg-navy text-white">
+    <div class="mx-auto max-w-7xl px-6 py-20 lg:py-28 grid gap-10 lg:grid-cols-2 items-center">
+      <div>
+        <h1 class="text-4xl/tight md:text-5xl/tight font-heading font-semibold">{pageTitle}</h1>
+        <p class="mt-4 text-white/80">{pageDesc}</p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="tel:01245823377" class="inline-flex items-center rounded-md bg-coral px-6 py-3 font-medium text-navy">Call 01245823377</a>
+          <a href="/contact" class="inline-flex items-center rounded-md border border-white/30 px-6 py-3">Enquire online</a>
+        </div>
+        <div class="mt-8 text-white/80 text-sm">DBS‑checked staff • Person‑centred care • 24/7 support line</div>
+      </div>
+      <div class="rounded-xl h-64 lg:h-80 bg-gradient-to-br from-coral to-violet shadow-lg"></div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24">
+    <div class="mx-auto max-w-7xl px-6">
+      <h2 class="text-2xl md:text-3xl font-heading text-navy">How we can support you</h2>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <a href="/services/personal-care" class="group rounded-lg border border-slate-200 p-5 hover:shadow-md">
+          <div class="text-navy font-semibold">Personal Care</div>
+          <p class="mt-2 text-slate-600 text-sm">Dignified daily living support, tailored to your needs.</p>
+        </a>
+        <a href="/services/live-in-care" class="group rounded-lg border border-slate-200 p-5 hover:shadow-md">
+          <div class="text-navy font-semibold">Live‑in Care</div>
+          <p class="mt-2 text-slate-600 text-sm">Round‑the‑clock support in the comfort of home.</p>
+        </a>
+        <a href="/services/supported-living" class="group rounded-lg border border-slate-200 p-5 hover:shadow-md">
+          <div class="text-navy font-semibold">Supported Living</div>
+          <p class="mt-2 text-slate-600 text-sm">Independence with reassuring, flexible assistance.</p>
+        </a>
+        <a href="/services/children-and-families" class="group rounded-lg border border-slate-200 p-5 hover:shadow-md">
+          <div class="text-navy font-semibold">Children & Families</div>
+          <p class="mt-2 text-slate-600 text-sm">Specialist support that puts families at ease.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16">
+    <div class="mx-auto max-w-7xl px-6 grid gap-8 lg:grid-cols-2 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-heading text-navy">Our simple, person‑centred process</h2>
+        <ul class="mt-6 space-y-4 text-slate-700">
+          <li><strong class="text-navy">1. Listen:</strong> We learn about your goals, routines, and preferences.</li>
+          <li><strong class="text-navy">2. Plan:</strong> We co‑create a tailored care plan with clear outcomes.</li>
+          <li><strong class="text-navy">3. Match:</strong> We carefully match you with trained, DBS‑checked carers.</li>
+          <li><strong class="text-navy">4. Support:</strong> We check in regularly and adapt as your needs change.</li>
+        </ul>
+      </div>
+      <div class="rounded-xl h-56 bg-gradient-to-br from-mauve to-violet/80"></div>
+    </div>
+  </section>
+
+  <section class="py-16">
+    <div class="mx-auto max-w-7xl px-6">
+      <div class="rounded-2xl bg-navy text-white px-8 py-10 grid gap-6 md:grid-cols-2 items-center">
+        <div>
+          <h3 class="text-2xl font-heading">Ready to talk?</h3>
+          <p class="mt-2 text-white/80">Get friendly advice about the right support for you or a loved one.</p>
+        </div>
+        <div class="flex gap-4">
+          <a href="tel:01245823377" class="inline-flex items-center rounded-md bg-coral px-6 py-3 font-medium text-navy">Call 01245823377</a>
+          <a href="/contact" class="inline-flex items-center rounded-md border border-white/30 px-6 py-3">Enquire online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,12 @@
+:root {
+  --color-navy: #040368;
+  --color-coral: #FF5B5C;
+  --color-violet: #1D0B98;
+  --color-mauve: #736182;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light; /* keep light palette as brand is dark-on-light */
+  }
+}

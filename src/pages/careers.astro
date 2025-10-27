@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Careers – Aion HCSS">
+  <section class="mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <h1 class="text-3xl md:text-4xl font-heading text-navy">Careers</h1>
+    <p class="mt-4 text-slate-700">Join a caring, professional team committed to person‑centred support. We offer training, development, and supportive supervision.</p>
+    <h2 class="mt-8 text-xl font-heading text-navy">Apply</h2>
+    <form class="mt-4 grid gap-4 max-w-xl" method="post" action="/thank-you" name="careers" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="careers" />
+      <input type="hidden" name="bot-field" />
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Full name</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" name="name" required />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Email</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" type="email" name="email" required />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Phone</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" type="tel" name="phone" />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Message</span>
+        <textarea class="rounded-md border border-slate-300 px-3 py-2" name="message" rows="4"></textarea>
+      </label>
+      <button class="inline-flex items-center justify-center rounded-md bg-coral px-6 py-3 font-medium text-navy" type="submit">Submit</button>
+    </form>
+  </section>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Contact – Aion HCSS">
+  <section class="mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <h1 class="text-3xl md:text-4xl font-heading text-navy">Contact us</h1>
+    <p class="mt-4 text-slate-700">We’re here to help. Call <a class="underline" href="tel:01245823377">01245823377</a> or send us a message below.</p>
+    <form class="mt-6 grid gap-4 max-w-xl" method="post" action="/thank-you" name="contact" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="bot-field" />
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Your name</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" name="name" required />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Email</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" type="email" name="email" required />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">Phone</span>
+        <input class="rounded-md border border-slate-300 px-3 py-2" type="tel" name="phone" />
+      </label>
+      <label class="grid gap-1">
+        <span class="text-sm text-slate-700">How can we help?</span>
+        <textarea class="rounded-md border border-slate-300 px-3 py-2" name="message" rows="5" required></textarea>
+      </label>
+      <button class="inline-flex items-center justify-center rounded-md bg-coral px-6 py-3 font-medium text-navy" type="submit">Send</button>
+    </form>
+  </section>
+</BaseLayout>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5B5C"/>
+      <stop offset="1" stop-color="#1D0B98"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#040368"/>
+  <g transform="translate(120,120)">
+    <circle cx="60" cy="60" r="60" fill="#040368" stroke="url(#g)" stroke-width="24"/>
+    <text x="160" y="70" fill="#fff" font-family="Poppins, Arial, sans-serif" font-size="48" font-weight="600">Aion Health Care &amp; Support Services</text>
+    <text x="160" y="120" fill="rgba(255,255,255,0.8)" font-family="Inter, Arial, sans-serif" font-size="28">Compassionate, person‑centred home care in Chelmsford</text>
+  </g>
+</svg>
